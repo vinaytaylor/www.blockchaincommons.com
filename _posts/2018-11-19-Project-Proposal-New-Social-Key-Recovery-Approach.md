@@ -1,6 +1,6 @@
 ---
 title: "Project Proposal: New Social Social Key Recovery Approach"
-excerpt_separator: "<!--more-->"
+excerpt_separator: <!--more-->
 categories:
   - Proposals
 tags:
@@ -16,7 +16,7 @@ The most popular social key recovery algorithm, [Shamir Secret Sharing](https://
 
 To quote Bitcoin Core Developer [Greg Maxwell](https://github.com/gmaxwell):
 
->I think Shamir Secret Sharing (and a number of other things, RNGs for example), suffer from a property where they are just complex enough that people are excited to implement them often for little good reason, and then they are complex enough (or have few enough reasons to invest significant time) they implement them poorly.”
+I think Shamir Secret Sharing (and a number of other things, RNGs for example), suffer from a property where they are just complex enough that people are excited to implement them often for little good reason, and then they are complex enough (or have few enough reasons to invest significant time) they implement them poorly.”
 
 Ideally an implementation of social key recovery should balancing numerous competing goals:
 
